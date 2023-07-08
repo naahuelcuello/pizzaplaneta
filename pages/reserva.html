@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Planet</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="shortcut icon" href="../images/logo/images-removebg-preview.png" type=image/x-icon>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div>
+            <img id="log" src="../images/logo/images-removebg-preview.png" alt="Logo pizza Planet">
+        </div>
+
+        <nav>
+            <ul id="navBar">
+                <li>
+                    <div class="men">
+                        <a id= "pag" href="../index.html">| HOME</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="men">
+                        <a id= "pag" href="./quienesSomos.html">INFORMACIÓN</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="men">
+                        <a id= "pag" href="./galeria.html">IMÁGENES</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="men">
+                        <a id= "pag" href="./menu.htm">VARIEDADES</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="men">
+                        <a id= "pag"href="./reserva.html">REALIZÁ TU RESERVA</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h2 id="frase">Realizá tu reserva</h2>
+    <div id="pizza">
+        <img id="pizzaimg" src="../images/pizzasf.png.png" alt="pizza planeta">
+    </div>
+
+    <section id="reserv">
+        <div class="Titu">
+            <h2>Complete Con los datos correspondientes</h2>
+        </div>
+        <form action="">
+            <div id="formu">
+                <label for="nombre">
+                    Nombre completo
+                </label>
+                <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre completo"required>
+            </div>
+            <div id="formu">
+                <label for="mail">
+                    Email
+                </label>
+                <input type="email" name="mail" id="mail"placeholder="ingrese su mail"required>
+            </div>
+            <div id="formu">
+                <label for="cantidad">
+                    Cantidad de personas
+                </label>
+                <input type="radio" name="cantidad" value="1">1
+                <input type="radio"name="cantidad" value="2">2
+                <input type="radio"name="cantidad" value="3">3
+                <input type="radio"name="cantidad" value="4">4
+                <input type="radio"name="cantidad" value="5">5
+                <input type="radio"name="cantidad" value="6">6
+                <input type="radio"name="cantidad" value="7">7
+                <input type="radio"name="cantidad" value="8">8
+            </div>
+            <input id=formuEnviar type="submit" value="Enviar Ahora">
+            <input id=formuEnviar type="reset" value="Borrar Todo">
+        </form>
+        <div>
+            <img id="imgform" src="../images/marcianos-sf.png" alt="Marcianos de Toy story">
+        </div>
+    
+
+    </section>
+    
+</body>
+</html>

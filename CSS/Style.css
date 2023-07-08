@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: rgb(4, 4, 59);
+}
+
+#log{
+    height: 100px;
+    margin-left: 20px;
+}
+header{
+    background-color: black;
+    display: flex;
+
+}
+#navBar{
+    display: flex;
+    list-style: none;
+    position: relative;
+    /* Ver que onda despues */
+    right: 0%;
+}
+.men{
+    /*  background-color: rgb(136, 6, 6);*/
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#pag{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: 50px;
+
+}
+#fotoPrincipal{
+
+    width: 100%;
+}
+#frase{
+    padding-left: 35%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#reserv{
+    border-radius: 10px;
+    margin: 10px; 
+    margin-left: 180px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+}
+#formu{
+    color: white;
+    margin: 10px;
+}
+#formuEnviar{
+    color: black;
+    margin: 10px;
+}
+.Titu{
+    background-color: rgb(136, 6, 6);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+#pizza{
+    display: inline-block;
+}
+#pizzaimg{
+    height: 550px;
+}
+#varied{
+    border-radius: 10px;
+    height: 530px;
+    width: 1000px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+}
+.menu{
+    background-color: white;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#map{
+    border-radius: 10px;
+    height: 550px;
+    width: 650px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+
+}
+#mapa{
+    padding: 10px;
+}
+#info{
+    border-radius: 10px;
+    height: 550px;
+    width: 650px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+
+
+}
+.foto{
+    display: flex;
+}
+.galeria{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+.galeriaimg{
+    height: 300px;
+    background-color: black;
+    padding: 5px;
+}
+.men:hover{
+    background-image: url(../images/logo/galaxy.jpg); opacity: 80%;
+    border: solid; color: blue;
+}
+.lin{
+    color: white;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+}
